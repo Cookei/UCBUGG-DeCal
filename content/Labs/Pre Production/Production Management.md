@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-11-01T06:53:02.942-07:00","modified":"2025-11-01T06:55:13.825-07:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.4f90d54ba47469846d60.png]]"}
+{"publish":true,"created":"2025-11-01T06:53:02.942-07:00","modified":"2025-11-01T17:38:03.833-07:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.4f90d54ba47469846d60.png]]"}
 ---
 
 # Introduction

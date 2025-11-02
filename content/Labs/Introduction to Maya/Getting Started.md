@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-11-01T03:52:34.727-07:00","modified":"2025-11-01T06:27:58.026-07:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.31f901e94837eb37271c.png]]"}
+{"publish":true,"created":"2025-11-01T03:52:34.727-07:00","modified":"2025-11-01T18:01:19.769-07:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.31f901e94837eb37271c.png]]"}
 ---
 
 # Introduction
@@ -151,7 +151,8 @@ The hotkeys for these (very simple but very useful to remember):
 > Be careful with this though, since you will **NOT** be able to select the separate objects again until you separate them manually. They are now considered one object. (An alternate way to combine objects is parenting, but that's in the modeling section).
 
 - What if you have a ton of objects in your scene and it's difficult to keep track of everything?
-	- Maya has you covered. Go to <kbd>Win</kbd> -> <kbd>Outliner</kbd>
+	- Maya has you covered. Go to <kbd>Win</kbd> -> <kbd>Outliner</kbd> 
+	  
 	  ![[attachments/outliner.dbbc0dc89738e08c831e.png]]
 	- This will then open a window that will show the default names of the objects in your scene, which isn't very useful if you have many objects. To remedy this, double click on one of the names of the objects listed in your outliner, and rename it something more appropriate (i.e. `ball_1`).
 - What if you want to delete an object?

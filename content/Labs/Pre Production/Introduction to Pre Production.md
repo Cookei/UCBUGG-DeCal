@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-11-01T06:24:04.328-07:00","modified":"2025-11-01T06:55:41.483-07:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.19495f988c09ace94754.png]]"}
+{"publish":true,"created":"2025-11-01T06:24:04.328-07:00","modified":"2025-11-01T18:16:33.792-07:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.19495f988c09ace94754.png]]"}
 ---
 
 # Storyboarding
