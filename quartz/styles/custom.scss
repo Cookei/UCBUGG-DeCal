@@ -7,9 +7,62 @@
   --radius-s: 5px;
   --radius-m: 10px;
   --radius-l: 15px;
+
+  --list-threading-offset: -0.782em;
+  --list-indent: calc(0.5625em * 4);
+  --font-size-list: 1em;
+  --list-spacing-bt: 1;
+  --radius-list: 7px;
+  --bt-indentation-width-hover: 3px;
+  --bt-connected-indent-line-color: #ffa8a8;
 }
 
 body {
+  div.center {
+    // Lists
+    //Select parent
+    li:has(li:hover) {
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        left: var(--list-threading-offset);
+        top: var(--font-size-list);
+        height: var(--font-size-list);
+        width: var(--bt-indentation-width-hover);
+        background-color: var(--bt-connected-indent-line-color);
+      }
+    }
+
+    /* all previous siblings of the hovered item */
+    li li:has(~ li:hover) {
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        left: calc(var(--list-indent) * -1.47);
+        top: 0;
+        height: 100%;
+        width: var(--bt-indentation-width-hover);
+        background-color: var(--bt-connected-indent-line-color);
+      }
+    }
+
+    /* hovered item */
+    li li:hover {
+      &::before {
+        content: "";
+        position: absolute;
+        left: var(--list-threading-offset);
+        width: var(--list-indent);
+        height: calc(1.4 / 2 * var(--font-size-list) + var(--list-spacing-bt) * 0.075em * 1.5);
+        border-bottom-left-radius: var(--radius-list);
+        border-bottom: var(--bt-indentation-width-hover) solid var(--bt-connected-indent-line-color);
+        border-left: var(--bt-indentation-width-hover) solid var(--bt-connected-indent-line-color);
+      }
+    }
+  }
+
   // KBD
   kbd {
     background-color: var(--fkt-light-bg-color, #e3e6e8);
@@ -19,6 +72,7 @@ body {
     padding: 2px 5px;
     font-family: monospace;
     font-size: 0.9em;
+    white-space: nowrap;
   }
 
   // Search
