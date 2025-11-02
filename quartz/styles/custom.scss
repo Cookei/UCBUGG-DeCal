@@ -1,3 +1,108 @@
 @use "./base.scss";
+@use "themes";
 
 // put your custom CSS here!
+
+:root {
+  --radius-s: 5px;
+  --radius-m: 10px;
+  --radius-l: 15px;
+}
+
+body {
+  // KBD
+  kbd {
+    background-color: var(--fkt-light-bg-color, #e3e6e8);
+    color: var(--fkt-light-text-color, #333);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 2px 5px;
+    font-family: monospace;
+    font-size: 0.9em;
+  }
+
+  // Search
+  .search > .search-container > .search-space > .search-layout {
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  a.result-card {
+    border-radius: unset !important;
+  }
+
+  // Internal Links
+  a.internal {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  a.tag-link {
+    transition: all 100ms ease-in-out;
+    &:hover {
+      background-color: rgb(212, 236, 255);
+      border-color: rgb(164, 190, 230);
+    }
+  }
+
+  // Explorer Folders
+  div.folder-container {
+    color: rgb(223, 145, 29) !important;
+
+    &:hover {
+      &::before {
+        filter: invert(100%) sepia(100%) saturate(200%) hue-rotate(180deg);
+        color: pink;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline !important;
+      }
+    }
+
+    a.folder-title {
+      font-weight: 600 !important;
+    }
+  }
+
+  .folder-outer.open {
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline !important;
+        &::before {
+          filter: invert(100%) sepia(100%) saturate(200%) hue-rotate(180deg);
+        }
+      }
+    }
+
+    a.active {
+      font-weight: 600 !important;
+    }
+  }
+
+  // Auto Link Card
+  a {
+    cursor: pointer !important;
+  }
+
+  div.auto-card-link-container {
+    transition: all 100ms ease-in-out;
+    border-radius: var(--radius-m);
+    background-color: rgb(245, 243, 238);
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px;
+
+    &:hover {
+      background-color: rgba(218, 231, 245, 0.692);
+      border: 1px solid gray;
+      transform: translateY(-5px);
+    }
+  }
+}
