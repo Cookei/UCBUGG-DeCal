@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-11-01T06:24:04.328-07:00","modified":"2025-11-01T18:16:33.792-07:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.19495f988c09ace94754.png]]"}
+{"publish":true,"created":"2025-11-01T06:24:04.328-07:00","modified":"2025-11-01T20:52:50.430-07:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.19495f988c09ace94754.png]]"}
 ---
 
 # Storyboarding
@@ -67,7 +67,16 @@ Pitching is definitely one of the hardest parts that comes with storyboarding. Y
 > - Most of all, speak clearly and avoid quietness
 > - Practice with your storyboards and make sure the boards are clear and concise and don’t conflict with your verbal pitch
 
-**[https://vimeo.com/151242159](https://vimeo.com/151242159)** - Eric Goldberg is known best for his work at Disney and Warner Bros. In this video, he pitches an unproduced 1947 Donald Duck storyboard.
+- Eric Goldberg is known best for his work at Disney and Warner Bros. In this video, he pitches an unproduced 1947 Donald Duck storyboard.
+
+```cardlink
+url: https://vimeo.com/151242159
+title: "'Trouble Shooter' Storyboard Pitch"
+description: "An incredible performance by Eric Goldberg who pitches an unreleased Donald Duck storyboard from 1947.  © Disney Source: dailymotion"
+host: vimeo.com
+image: https://i.vimeocdn.com/video/550986097-3a3474fba65b82c44cffae1e46d33cf4a66db205d993969ca202e23ccb19c714-d?f=webp&region=us
+```
+
 # Visual Development
 We use the term ‘visual development’ to encompass all parts of design within story. It is a broad term, and it determines how the visual look of your final film will turn out. Where storyboarding plans out the stage and framing, visual development plans out the aesthetic.
 
@@ -79,7 +88,16 @@ Having good references helps define what you are going for, which will give the 
 
 ![[attachments/concept.fb64127c96aae7bc44d4.png]]
 
-Here is a great resource to look at concept art: **[https://characterdesignreferences.com/art-of-animation/](https://characterdesignreferences.com/art-of-animation/)**
+Here is a great resource to look at concept art: 
+
+```cardlink
+url: https://characterdesignreferences.com/art-of-animation/
+title: "Art of Animation"
+description: "Dive into the art of the most beautiful animated movies and TV series! Enjoy a fine selection of model sheets, concept designs, animation cels, pencil tests, background paintings from over 500 titles..."
+host: characterdesignreferences.com
+favicon: https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1430550733626-TGNKR7YVPP5H2HOC14DK/favicon.ico?format=100w
+image: http://static1.squarespace.com/static/54fc8146e4b02a22841f4df7/t/5dad99d864fbcd1ae7cb0c9a/1571658203622/cover+9.jpg?format=1500w
+```
 ## Character Design
 
 As you are thinking about your protagonist, the main question you want to have in mind is **"Who is your character, and how can their personality be visually explained?"**
@@ -105,7 +123,10 @@ Clearly, he has many flaws - he’s old, cranky, and close-minded. But you sympa
 
 Think about the world you want to build. What is the message you are trying to send to your audience, and how can it be most effectively communicated? Is the moral of your story something that is bitter? Unhappy? Fun? Serious? What are the colors that come to mind when you think of these moods?
 
-Here are some fun websites to check out if you want to set a color palette for your short: **[https://coolors.co/](https://coolors.co/)** - Make swatches or load your moodboard images into websites that will generate a color palette for you **[http://www.color-hex.com/color-palettes/](http://www.color-hex.com/color-palettes/)** - Generate color palettes based on keywords
+> [!info]
+> Here are some fun websites to check out if you want to set a color palette for your short: 
+> **[https://coolors.co/](https://coolors.co/)** - Make swatches or load your moodboard images into websites that will generate a color palette for you
+> **[Fetching Data#od3t](http://www.color-hex.com/color-palettes/)** - Generate color palettes based on keywords
 
 ![[attachments/palette.faadb6685a3b66ae822e.png]]
 

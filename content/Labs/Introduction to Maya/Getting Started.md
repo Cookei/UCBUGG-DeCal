@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-11-01T03:52:34.727-07:00","modified":"2025-11-01T18:01:19.769-07:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.31f901e94837eb37271c.png]]"}
+{"publish":true,"created":"2025-11-01T03:52:34.727-07:00","modified":"2025-11-01T20:49:44.476-07:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.31f901e94837eb37271c.png]]"}
 ---
 
 # Introduction
@@ -10,7 +10,15 @@ Welcome to Maya! The purpose of this guide is to just give you a basic overview 
 While UCBUGG does provide lab computers with Maya installed, it's really important to have your own copy on your computer so that you can work from home on your own schedule. This process will require that you have a valid berkeley.edu email address so that you are able to download Autodesk Maya for free!
 ## Registering with Autodesk
 
-Open up a web browser and go to [https://www.autodesk.com/education/edu-software/overview](https://www.autodesk.com/education/edu-software/overview).
+Open up a web browser and go to to this link
+
+```cardlink
+url: https://www.autodesk.com/education/edu-software/overview
+title: "Autodesk Student Access to Education Downloads"
+description: "Explore free Autodesk software for students, educators, and educational institutions. Download your favorite Autodesk software, including AutoCAD, Revit, Fusion, and more."
+host: www.autodesk.com
+favicon: https://static-dc.autodesk.net/etc.clientlibs/v605.20251017.1816/autodesk/clientlibs/clientlib-dhig/resources/favicons/app-icon-192.png
+```
 
 ![[attachments/getting_maya.f9442584d956a1af4d1c.png]]
 
@@ -19,7 +27,15 @@ If you don't have an account with Autodesk already you will need to make one in 
 Autodesk will register your account and send you an activation email. Registration can take a few minutes, so don't worry if the email doesn't show up instantly. Once you get your email, click on the included activation link.
 ## Downloading Maya
 
-Once registration is complete, go back to [http://students.autodesk.com/education/free-software/maya](http://students.autodesk.com/education/free-software/maya), log in with your newly created account, and fill out the second section.
+Once registration is complete, go back here, log in with your newly created account, and fill out the second section
+
+```cardlink
+url: http://students.autodesk.com/education/free-software/maya
+title: "Autodesk Student and Educator Software Resources | Autodesk Education"
+description: "Learn how Autodesk empowers students & educators with training, curricula, professional development, and formal certifications for all ages and skill levels."
+host: students.autodesk.com
+favicon: https://static-dc.autodesk.net/etc.clientlibs/v605.20251017.1816/autodesk/clientlibs/clientlib-dhig/resources/favicons/app-icon-192.png
+```
 
 ![[attachments/getting_maya_select2022.0c33bc215a5164fd761d.png]]
 
@@ -37,7 +53,7 @@ Once your download is complete, simply run the installer and follow the on scree
 > In the installer, it might ask you to install other various plugins for Maya. These are not necessary, but if you want to explore Maya more in depth, the Bifrost and Substance plugins are helpful 
 ## Mudbox
 
-While you're at it, you can download Mudbox using the account you have now created as well. Mudbox is not required for our class, but you may find it very useful and we have resources if you want to learn how to use it as well. [http://www.autodesk.com/education/free-software/mudbox](http://www.autodesk.com/education/free-software/mudbox)
+While you're at it, you can download Mudbox using the account you have now created as well. Mudbox is not required for our class, but you may find it very useful and we have resources if you want to learn how to use it as well.
 
 Now let’s get on to using Maya.
 # Basic UI Teminology
