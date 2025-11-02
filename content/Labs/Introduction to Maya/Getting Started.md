@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-11-01T03:52:34.727-07:00","modified":"2025-11-01T21:14:03.352-07:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.31f901e94837eb37271c.png]]"}
+{"publish":true,"created":"2025-11-01T03:52:34.727-07:00","modified":"2025-11-02T03:33:44.232-08:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.31f901e94837eb37271c.png]]"}
 ---
 
 
@@ -88,21 +88,21 @@ This changes the function of Maya to a different part of the pipeline. When it's
 This part of the guide will take a brief look at how to make a polygon and edit its basic attributes.
 
 1. Make sure your dropdown menu is in Modeling mode
-2. Go to create → polygon primitives → sphere  
+2. Go to <samp>create</samp> → <samp>polygon primitives</samp> → <samp>sphere</samp>  
    ![[attachments/create_sphere.aed549b5faa87c0e996d.png]]  
    A sphere will show up in the middle of your viewport.
 	1. You can also do this through the polygons menu in the shelf:  
 	   ![[attachments/sphere_shelf.1bc1e8e18ba46359e7ba.png]]
 3. If you want to undo the creation of the sphere, do <kbd>&#9096; Ctrl</kbd> <kbd>Z</kbd> (<kbd>&#9096; Ctrl</kbd> <kbd>&#8679; Shift</kbd> <kbd>Z</kbd> will redo)
 4. Check the attribute editor for the sphere:
-	1. To access the attribute editor, hold right click on the sphere and let go of right click when the mouse hovers over "pSphere1…"  
+	1. To access the attribute editor, hold right click on the sphere and let go of right click when the mouse hovers over <samp>pSphere1…</samp>  
 	   ![[attachments/access_attribute_editor.5ec12fa0879542ee076f.png]]
 	2. You should then get this window on the right side of the screen:  
 	   ![[attachments/attribute_editor_1.db59a6481e96033bce48.png]]
-	3. Try clicking on the first tab on the left "pSphere1." There you will find several spaces with numbers where you can edit the attributes and you would see a corresponding change.  
+	3. Try clicking on the first tab on the left <samp>pSphere1</samp>. There you will find several spaces with numbers where you can edit the attributes and you would see a corresponding change.  
 	   ![[attachments/attribute_editor_2.defad7143df643715a6c.png]]
-	4. Notice how there's three boxes for every attribute: this is because there's three dimensions to every attribute (x, y, z). So if you edit those numbers, you should see the sphere changing in the viewport in a way that corresponds to the numbers you put. Feel free to explore changing numbers and seeing the effect on the sphere, or to change the sphere directly and see the effect on the numbers.
-	5. Another important function of the Attribute Editor is to allow you to change certain attributes or settings of the polygons you create. Click on "polySphere1" in the Attribute Editor; you will see certain attributes such as radius and subdivisions which can be easily changed to your needs. Different polygon primitives will have various attributes that you can change and experiment with.  
+	4. Notice how there's three boxes for every attribute: this is because there's three dimensions to every attribute <samp>(x, y, z)</samp>. So if you edit those numbers, you should see the sphere changing in the viewport in a way that corresponds to the numbers you put. Feel free to explore changing numbers and seeing the effect on the sphere, or to change the sphere directly and see the effect on the numbers.
+	5. Another important function of the Attribute Editor is to allow you to change certain attributes or settings of the polygons you create. Click on <samp>polySphere1</samp> in the Attribute Editor; you will see certain attributes such as radius and subdivisions which can be easily changed to your needs. Different polygon primitives will have various attributes that you can change and experiment with.  
 	   ![[attachments/attribute_editor_3.5c234e37b440cc89e293.png]]
 
 # Manipulating Views
@@ -162,14 +162,14 @@ The hotkeys for these (very simple but very useful to remember):
 - What if you want to select both objects at once?
 	- There's two ways: Select the first object and then <kbd>&#8679; Shift</kbd> <kbd>Left 🖱️</kbd> the second object and both will be selected **or** <kbd>Left 🖱️</kbd> + <kbd>Drag</kbd> a box around both objects and they'll both be selected
 - What if you want to objects to become just one object?
-	- Select both objects and go to <kbd>Mesh</kbd> → <kbd>Combine</kbd>  
+	- Select both objects and go to <samp>Mesh</samp> → <samp>Combine</samp>  
 	  ![[attachments/combine.eec2e2be66ff273d5407.png]]
 
 > [!caution]  
 > Be careful with this though, since you will **NOT** be able to select the separate objects again until you separate them manually. They are now considered one object. (An alternate way to combine objects is parenting, but that's in the modeling section).
 
 - What if you have a ton of objects in your scene and it's difficult to keep track of everything?
-	- Maya has you covered. Go to <kbd>Win</kbd> -> <kbd>Outliner</kbd>
+	- Maya has you covered. Go to <samp>Windows</samp> -> <samp>Outliner</samp>
 	  
 	  ![[attachments/outliner.dbbc0dc89738e08c831e.png]]
 	- This will then open a window that will show the default names of the objects in your scene, which isn't very useful if you have many objects. To remedy this, double click on one of the names of the objects listed in your outliner, and rename it something more appropriate (i.e. `ball_1`).
@@ -202,13 +202,13 @@ If you want to get out of that view, press spacebar again and you'll be back to 
 
 ![[attachments/vertex_face_etc.300a92b0d3f71e71bea1.png]]
 
-The main buttons to pay attention to for now are <kbd>Vertex</kbd>, <kbd>Edge</kbd>, <kbd>Face</kbd> and <kbd>Object Mode</kbd>.
+The main buttons to pay attention to for now are <samp>Vertex</samp>, <samp>Edge</samp>, <samp>Face</samp> and <samp>Object Mode</samp>.
 
-- If you let go of right click over <kbd>Vertex</kbd> the lines of the object will turn blue, indicating that you're editing parts of the object. The intersection dots in the object's lines will now be purple, allowing you to change their positions.
+- If you let go of right click over <samp>Vertex</samp> the lines of the object will turn blue, indicating that you're editing parts of the object. The intersection dots in the object's lines will now be purple, allowing you to change their positions.
 - Try clicking a vertex and then pressing <kbd>W</kbd> to go into the move tool and move them in/out to get a sense of what vertices contribute to the shape of the object.
-- In <kbd>Edge</kbd> mode you'll be able to alter the lines on an object (an edge is the line between two vertices)
-- In <kbd>Face</kbd> mode you'll be able to alter the spaces between the lines on the object (faces are the areas of the mesh surrounded by four vertices/edges).
-- To go back to being able to manipulate the object as a whole, go into <kbd>Object Mode</kbd>. Now the lines will be green, indicating that the object as a whole is being altered and not just specific parts of it.
+- In <samp>Edge</samp> mode you'll be able to alter the lines on an object (an edge is the line between two vertices)
+- In <samp>Face</samp> mode you'll be able to alter the spaces between the lines on the object (faces are the areas of the mesh surrounded by four vertices/edges).
+- To go back to being able to manipulate the object as a whole, go into <samp>Object Mode</samp>. Now the lines will be green, indicating that the object as a whole is being altered and not just specific parts of it.
 
 ## A Tiny Bit of Modeling
 
@@ -217,7 +217,7 @@ For the purpose of your application assignment (making a robot), here's a little
 From what you've seen in the previous section, it seems that the lines on an object dictate its shape—so how do you add lines/edges?
 
 1. Select the object.
-2. Go to <kbd>Mesh Tools</kbd> → <kbd>Insert Edge Loop</kbd>
+2. Go to <samp>Mesh Tools</samp> → <samp>Insert Edge Loop</samp>
 
 ![[attachments/edgeloop.c8862c98a7431a2cc1a0.png]]
 
@@ -225,13 +225,13 @@ Now click on one of the edges of the polygon, and you'll find that a line has fo
 
 ![[attachments/edgeloop_2.ea23f401c191452ff4b5.png]]
 
-What if you want to bring out a face without pulling the surrounding faces with it? So if you go into <kbd>Face</kbd> mode and just select a face and move it outward, it will look something like this:
+What if you want to bring out a face without pulling the surrounding faces with it? So if you go into <samp>Face</samp> mode and just select a face and move it outward, it will look something like this:
 
 ![[attachments/pull_face.f946e73545d45a09ad7d.png]]
 
 Notice how the surrounding faces get affected when you pull that one face out? What if you don't want them to be affected? The answer to that is the **extrude tool.**
 
-Select the face, and instead of pulling it out immediately, go to edit <kbd>Mesh</kbd> -> <kbd>Extrude</kbd> and if you pull out the face, it will look like this:
+Select the face, and instead of pulling it out immediately, go to edit <samp>Mesh</samp> -> <samp>Extrude</samp> and if you pull out the face, it will look like this:
 
 ![[attachments/extrude_face.2295e2d3ac3ce86fbd37.png]]
 
