@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-11-01T06:24:04.328-07:00","modified":"2025-11-01T20:57:01.454-07:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.19495f988c09ace94754.png]]"}
+{"publish":true,"created":"2025-11-01T06:24:04.328-07:00","modified":"2025-11-01T20:58:35.886-07:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.19495f988c09ace94754.png]]"}
 ---
 
 # Storyboarding
@@ -48,11 +48,11 @@ For example, if a character is about to cry, you may have one drawing where the 
 Staging and acting go hand-in-hand. You wouldn’t necessarily have a close up shot if your character is in the middle of some fight sequence, and at the same time, you wouldn’t have an extreme long shot if you want to focus on the character’s eyes twitching.
 
 > [!info] Good Resources to Learn More About Storyboarding
-> These were all recommended to me by professional storyboard artists, and are ultimately very great resources to follow.
+> These were all recommended to me by professional storyboard artists, and are ultimately very great resources to follow. 
 > 
-> **[http://tobyshelton.blogspot.com/](http://tobyshelton.blogspot.com/)** - Toby Shelton is a storyboard artist who has worked at Disney, DreamWorks, and more. You can see a lot of his work on feature films here.
-> **[http://sevencamels.blogspot.com/](http://sevencamels.blogspot.com/)** - Recommended by many storyboard artists. Wonderful info and analysis on story
-> **[http://floobynooby.com/comp1.html](http://floobynooby.com/comp1.html)** - Goes into depth on the process of storyboarding. Great foundation topics and pointers.
+> **[http://tobyshelton.blogspot.com/](http://tobyshelton.blogspot.com/)** - Toby Shelton is a storyboard artist who has worked at Disney, DreamWorks, and more. You can see a lot of his work on feature films here. 
+> **[http://sevencamels.blogspot.com/](http://sevencamels.blogspot.com/)** - Recommended by many storyboard artists. Wonderful info and analysis on story 
+> **[http://floobynooby.com/comp1.html](http://floobynooby.com/comp1.html)** - Goes into depth on the process of storyboarding. Great foundation topics and pointers. 
 
 # Pitching
 
@@ -112,8 +112,8 @@ Think about the world you want to build. What is the message you are trying to s
 > [!info]
 > Here are some fun websites to check out if you want to set a color palette for your short:
 > 
-> **[https://coolors.co/](https://coolors.co/)** - Make swatches or load your moodboard images into websites that will generate a color palette for you
-> **[Fetching Data#od3t](http://www.color-hex.com/color-palettes/)** - Generate color palettes based on keywords
+> **[https://coolors.co/](https://coolors.co/)** - Make swatches or load your moodboard images into websites that will generate a color palette for you 
+> **[Fetching Data#od3t](http://www.color-hex.com/color-palettes/)** - Generate color palettes based on keywords 
 
 ![[attachments/palette.faadb6685a3b66ae822e.png]]
 
