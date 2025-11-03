@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-11-01T03:52:34.727-07:00","modified":"2025-11-02T03:33:44.232-08:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.31f901e94837eb37271c.png]]"}
+{"publish":true,"created":"2025-11-01T03:52:34.727-07:00","modified":"2025-11-02T03:37:23.645-08:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.31f901e94837eb37271c.png]]"}
 ---
 
 
@@ -175,7 +175,7 @@ The hotkeys for these (very simple but very useful to remember):
 	- This will then open a window that will show the default names of the objects in your scene, which isn't very useful if you have many objects. To remedy this, double click on one of the names of the objects listed in your outliner, and rename it something more appropriate (i.e. `ball_1`).
 - What if you want to delete an object?
 	- Just click the object and press <kbd>&#9003; Delete</kbd> or <kbd>&#10229; Backspace</kbd>. Again, if you'd like to undo, do <kbd>&#9096; Ctrl</kbd> <kbd>Z</kbd>.
-	- Alternatively, you can click on the object's name in the list in the outliner and just press <kbd>&#9003; Delete</kbd> or <kbd>&#10229; Backspace</kbd>.
+	- Alternqatively, you can click on the object's name in the list in the outliner and just press <kbd>&#9003; Delete</kbd> or <kbd>&#10229; Backspace</kbd>.
 
 # Different Views of the Scene
 
