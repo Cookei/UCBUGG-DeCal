@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"UCBUGG DeCal","created":"2025-11-01T01:38:49.973-07:00","modified":"2025-11-03T01:36:19.530-08:00","cssclasses":""}
+{"publish":true,"title":"UCBUGG DeCal","created":"2025-11-01T01:38:49.973-07:00","modified":"2025-11-03T01:40:53.957-08:00","cssclasses":""}
 ---
 
 
@@ -45,22 +45,23 @@ This page is meant to primarily host the course labs for UCBUGG, as well as vari
 | Scripting            | [[Labs/Scripting/Scripting]]            | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
 | Notes                | [[Notes/Notes]]                | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
 | Gallery              | [[Gallery]]              | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
+|                      |                          |        |                                      |
 
 </div>
 
-[!category]
-
-| Category             | Link                     | Color  | Image                                |
-| -------------------- | ------------------------ | ------ | ------------------------------------ |
-| Introduction to Maya | [[Labs/Introduction to Maya/Introduction to Maya]] | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
-| Pre Production       | [[Labs/Pre Production/Pre Production]]       | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
-| Modeling             | [[Labs/Modeling/Modeling]]             | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
-| Shading              | [[Labs/Shading/Shading]]              | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
-| Rigging              | [[Labs/Rigging/Rigging]]              | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
-| Animating            | [[Labs/Animating/Animating]]            | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
-| Lighting             | [[Labs/Lighting/Lighting]]             | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
-| Effects              | [[Labs/Effects/Effects]]              | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
-| Post Production      | [[Labs/Post Production/Post Production]]      | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
-| Scripting            | [[Labs/Scripting/Scripting]]            | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
-| Notes                | [[Notes/Notes]]                | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
-| Gallery              | [[Gallery]]              | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
+> [!category]
+>
+> | Category             | Link                     | Color  | Image                                |
+> | -------------------- | ------------------------ | ------ | ------------------------------------ |
+> | Introduction to Maya | [[Labs/Introduction to Maya/Introduction to Maya]] | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
+> | Pre Production       | [[Labs/Pre Production/Pre Production]]       | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
+> | Modeling             | [[Labs/Modeling/Modeling]]             | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
+> | Shading              | [[Labs/Shading/Shading]]              | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
+> | Rigging              | [[Labs/Rigging/Rigging]]              | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
+> | Animating            | [[Labs/Animating/Animating]]            | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
+> | Lighting             | [[Labs/Lighting/Lighting]]             | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
+> | Effects              | [[Labs/Effects/Effects]]              | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
+> | Post Production      | [[Labs/Post Production/Post Production]]      | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
+> | Scripting            | [[Labs/Scripting/Scripting]]            | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
+> | Notes                | [[Notes/Notes]]                | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
+> | Gallery              | [[Gallery]]              | fcba03 | ![[attachments/elementor-placeholder-image.png]] |
