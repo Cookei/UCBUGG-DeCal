@@ -9,15 +9,54 @@
   --radius-l: 15px;
 
   --list-threading-offset: -0.782em;
-  --list-indent: calc(0.5625em * 4);
+  --list-indent: calc(0.5625rem * 4);
   --font-size-list: 1em;
   --list-spacing-bt: 1;
   --radius-list: 7px;
   --bt-indentation-width-hover: 3px;
   --bt-connected-indent-line-color: #ffa8a8;
+
+  --folder-color: rgb(223, 145, 29);
+  --padding-inline: 40px;
 }
 
 body {
+  div.page {
+    max-width: 1600px !important;
+    width: 100% !important;
+  }
+
+  ul,
+  ol {
+    /* Adjust this value to control the indentation */
+    padding-inline-start: var(--padding-inline);
+  }
+
+  // Lightbox
+  div.lightbox-wrapper[data-lightbox="true"] {
+    &:hover {
+      transform: none;
+    }
+    img.lightbox-image {
+      box-shadow: inherit;
+      &:hover {
+        cursor: zoom-in;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+
+  div.lightbox-modal.active {
+    &:hover {
+      cursor: zoom-out;
+    }
+    button.lightbox-close {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
   div.center {
     // Lists
     //Select parent
@@ -40,7 +79,7 @@ body {
       &::before {
         content: "";
         position: absolute;
-        left: calc(var(--list-indent) * -1.47);
+        left: calc(var(--list-threading-offset) - var(--padding-inline));
         top: 0;
         height: 100%;
         width: var(--bt-indentation-width-hover);
@@ -101,9 +140,23 @@ body {
     }
   }
 
+  div.toc a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  div.breadcrumb-element > a {
+    transition: all 100ms ease-in-out;
+    &:hover {
+      color: var(--folder-color);
+    }
+  }
+
   // Explorer Folders
   div.folder-container {
-    color: rgb(223, 145, 29) !important;
+    color: var(--folder-color) !important;
 
     &:hover {
       &::before {
