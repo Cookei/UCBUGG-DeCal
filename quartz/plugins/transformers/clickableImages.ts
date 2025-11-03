@@ -3,7 +3,6 @@ import { Root } from "hast"
 import { visit } from "unist-util-visit"
 
 export const ClickableImages: QuartzTransformerPlugin = () => {
-
   return {
     name: "ClickableImages",
     htmlPlugins() {
@@ -12,14 +11,17 @@ export const ClickableImages: QuartzTransformerPlugin = () => {
           return (tree: Root, _file) => {
             visit(tree, "element", (node: any, index, parent) => {
               if (node.tagName === "img" && parent && index !== undefined) {
+                if (node.properties?.className?.includes("auto-card-link-thumbnail")) return
                 // Get the current img src which should already be resolved
                 const originalSrc = node.properties?.src
                 const originalAlt = node.properties?.alt || ""
-                
+
                 if (!originalSrc) return
 
                 // Add lightbox classes and data attributes to the img
-                node.properties.className = (node.properties.className || []).concat(["lightbox-image"])
+                node.properties.className = (node.properties.className || []).concat([
+                  "lightbox-image",
+                ])
                 node.properties["data-src"] = originalSrc
                 node.properties["data-alt"] = originalAlt
                 node.properties.loading = "lazy"
@@ -30,9 +32,9 @@ export const ClickableImages: QuartzTransformerPlugin = () => {
                   tagName: "div",
                   properties: {
                     className: ["lightbox-wrapper"],
-                    "data-lightbox": "true"
+                    "data-lightbox": "true",
                   },
-                  children: [node]
+                  children: [node],
                 }
 
                 // Replace the img with the wrapper in the parent
