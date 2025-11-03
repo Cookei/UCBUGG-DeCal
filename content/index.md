@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"UCBUGG DeCal","created":"2025-11-01T01:38:49.973-07:00","modified":"2025-11-03T01:40:53.957-08:00","cssclasses":""}
+{"publish":true,"title":"UCBUGG DeCal","created":"2025-11-01T01:38:49.973-07:00","modified":"2025-11-03T03:36:57.047-08:00","cssclasses":""}
 ---
 
 
@@ -28,6 +28,8 @@ This page is meant to primarily host the course labs for UCBUGG, as well as vari
 - [[Labs/Shading/Shading\|Shading]]
     
 - [[Labs/Scripting/Scripting\|Scripting]]
+
+![[attachments/as-lab-crying.19495f988c09ace94754.png|test]]
 
 <div class="categoryArray" data-columns="4" markdown="1">
 
