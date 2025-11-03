@@ -61,6 +61,7 @@ export const CategoryPage: QuartzTransformerPlugin = () => {
                   // Card obj
                   const Card = structuredClone(ReturnCardData.link)
                   delete Card.position
+                  Card.properties.style = `--card-color-bg: #${ReturnCardData.color}`
                   console.log(trValue.children[0])
                   Card.children = [
                     {
@@ -68,7 +69,6 @@ export const CategoryPage: QuartzTransformerPlugin = () => {
                       tagName: "div",
                       properties: {
                         className: ["card"],
-                        "data-color": ReturnCardData.color,
                       },
                       children: [
                         {
