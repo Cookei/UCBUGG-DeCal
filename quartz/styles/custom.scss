@@ -20,6 +20,7 @@
   --padding-inline: 40px;
 
   --internal-link-bg: rgb(255, 222, 228);
+  --samp-color-bg: rgb(214, 214, 214);
 }
 
 body {
@@ -60,8 +61,16 @@ body {
   }
 
   div.center {
+    // Samp
+    samp {
+      background-color: var(--samp-color-bg);
+      padding-left: 2px;
+      padding-right: 2px;
+      white-space: nowrap;
+    }
+
     // Lists
-    //Select parent
+    // Select parent
     li:has(li:hover) {
       position: relative;
       &::after {
