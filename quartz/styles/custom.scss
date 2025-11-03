@@ -18,6 +18,8 @@
 
   --folder-color: rgb(223, 145, 29);
   --padding-inline: 40px;
+
+  --internal-link-bg: rgb(255, 222, 228);
 }
 
 body {
@@ -127,9 +129,14 @@ body {
   // Internal Links
   a.internal {
     text-decoration: none;
+    background-color: var(--internal-link-bg);
     &:hover {
       text-decoration: underline;
     }
+  }
+
+  div.results-container p.match-tag {
+    color: light-dark(rgba(219, 78, 78, 0.8), rgba(240, 128, 128, 0.87)) !important;
   }
 
   a.tag-link {
@@ -152,6 +159,10 @@ body {
     &:hover {
       color: var(--folder-color);
     }
+  }
+
+  .search > .search-container > .search-space > .search-layout > .results-container .result-card {
+    display: block !important;
   }
 
   // Explorer Folders
