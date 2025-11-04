@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-11-01T06:24:04.328-07:00","modified":"2025-11-02T02:48:20.371-08:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.19495f988c09ace94754.png]]"}
+{"publish":true,"created":"2025-11-03T18:06:05.881-08:00","modified":"2025-11-03T19:55:07.791-08:00","tags":["lab"],"cssclasses":"","socialImage":"[[THUMBNAIL.19495f988c09ace94754.png]]"}
 ---
 
 

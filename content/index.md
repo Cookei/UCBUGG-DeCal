@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"UCBUGG DeCal","created":"2025-11-01T01:38:49.973-07:00","modified":"2025-11-03T04:23:18.294-08:00","cssclasses":""}
+{"publish":true,"title":"UCBUGG DeCal","created":"2025-11-03T18:06:05.988-08:00","modified":"2025-11-03T19:54:49.690-08:00","cssclasses":""}
 ---
 
 
@@ -8,26 +8,6 @@
 This page is meant to primarily host the course labs for UCBUGG, as well as various tips and notes that could be relevant to the course.
 
 # Lab Categories
-
-- [[Labs/Introduction to Maya/Introduction to Maya\|Introduction to Maya]]
-    
-- [[Labs/Pre Production/Pre Production\|Pre Production]]
-    
-- [[Labs/Modeling/Modeling\|Modeling]]
-    
-- [[Labs/Animating/Animating\|Animating]]
-    
-- [[Labs/Effects/Effects\|Effects]]
-    
-- [[Labs/Lighting/Lighting\|Lighting]]
-    
-- [[Labs/Post Production/Post Production\|Post Production]]
-    
-- [[Labs/Rigging/Rigging\|Rigging]]
-    
-- [[Labs/Shading/Shading\|Shading]]
-    
-- [[Labs/Scripting/Scripting\|Scripting]]
 
 > [!category]
 >
