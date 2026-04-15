@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: cookei.github.io/UCBUGG-DeCal
+  baseUrl: cookei.github.io/UCBUGG-DeCal/
   ignorePatterns:
     - private
     - templates
